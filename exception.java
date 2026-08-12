@@ -6,4 +6,4 @@ class exception {
             System.out.println("Error!");
         }
     }
-}
+} 

@@ -1,6 +1,1 @@
-Hey there this is me Sagar..  #21.
-create a webpage that is used for audio and video element just write a simple .
-create a webpage display product details using list and images.
-create id card using css. also apply different border styles margins and padding to various html element.
-A college wants to organize a workshop. Create a online registration page. Design the html form, 
-style it using css and validate mandatory fields using js.
+Hey there this is me Sagar..  #20.

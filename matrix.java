@@ -32,7 +32,7 @@ public class matrix {
                 B[i][j] = sc.nextInt();
             }
         }
-
+        
         System.out.println();
         if (r1 == r2 && c1 == c2) {
             System.out.println("Addition result:");
