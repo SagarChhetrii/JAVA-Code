@@ -1,11 +1,7 @@
-class Product {
+public class Product {
     private int id;
     private String name;
     private double price;
-
-    public Product() {
-        this(0, "Unknown", 0.0);
-    }
 
     public Product(int id, String name, double price) {
         this.id = id;
@@ -13,20 +9,27 @@ class Product {
         this.price = price;
     }
 
-    public void displayDetails() {
-        System.out.println("Product ID: " + id);
-        System.out.println("Product Name: " + name);
-        System.out.println("Product Price: $" + price);
+    public int getId() {
+        return id;
     }
 
-    public static void main(String[] args) {
-        Product product1 = new Product();
-        Product product2 = new Product(101, "Laptop", 799.99);
+    public void setId(int id) {
+        this.id = id;
+    }
 
-        System.out.println("Default Constructor:");
-        product1.displayDetails();
+    public String getName() {
+        return name;
+    }
 
-        System.out.println("\nParameterized Constructor:");
-        product2.displayDetails();
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public double getPrice() {
+        return price;
+    }
+
+    public void setPrice(double price) {
+        this.price = price;
     }
 }
