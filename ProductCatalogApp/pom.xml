@@ -16,21 +16,18 @@
     <artifactId>product-catalog</artifactId>
     <version>1.0.0</version>
     <name>Product Catalog REST API</name>
-    <description>5-Endpoint CRUD REST API using Spring Boot (in-memory ArrayList)</description>
+    <description>Simple product catalog REST API with Spring Boot</description>
 
     <properties>
         <java.version>17</java.version>
     </properties>
 
     <dependencies>
-        <!-- Spring Web: gives us @RestController, @GetMapping, etc.
-             Also starts an embedded Tomcat server on port 8080 -->
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-web</artifactId>
         </dependency>
 
-        <!-- Test support -->
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-test</artifactId>
@@ -40,7 +37,6 @@
 
     <build>
         <plugins>
-            <!-- Packages app as an executable fat JAR -->
             <plugin>
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-maven-plugin</artifactId>

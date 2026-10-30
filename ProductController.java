@@ -268,7 +268,6 @@ public class ProductController {
         // ── READ ALL ────────────────────────────────────────────────
         System.out.println("\n── READ ALL ────────────────────────────────────");
         controller.displayAllProducts();
-
         // ── READ BY ID ──────────────────────────────────────────────
         System.out.println("── READ BY ID ──────────────────────────────────");
         Product found = controller.getProductById(p1.getId());
